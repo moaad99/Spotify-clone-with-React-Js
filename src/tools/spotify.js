@@ -1,7 +1,7 @@
 
 export const auth= "https://accounts.spotify.com/authorize";
 
-const redirectUrl= "http://localhost:3000/";
+const redirectUrl= "https://moaad-spotify-clone.herokuapp.com/";
 
 const clientId = "12efb2f313ff4a99b5bfa3cb357c2205"
 
