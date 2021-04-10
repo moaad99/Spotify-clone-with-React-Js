@@ -25,11 +25,23 @@ function SideBarOption() {
         <br/><br/>
               <hr/>
             <div style={{marginInline:"30px",color:"grey"}}>
-              <p>Hip-Hop</p>
+              <p className="p4">Hip-Hop</p>
               <br/>
-              <p>Electronic</p>
+              <p className="p4">Electronic</p>
               <br/>
-              <p>Rock</p>
+              <p className="p4">Rock</p>
+              <br/>
+              <p className="p4">Club Beats 2021 🔥</p>
+              <br/>
+              <p className="p4">Motivation Mix</p>
+              <br/>
+              <p className="p4">Nightlight ✘ Aurora ✘ Faded </p>
+              <br/>
+              <p className="p4">lofi hip hop music</p>
+            
+            
+
+              
               </div>
               </div>
               </div>

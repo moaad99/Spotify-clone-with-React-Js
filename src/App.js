@@ -12,7 +12,7 @@ function App() {
 
   const [token,setToken]= useState(null)
 
-  const [{user}, dispatch]= useDataLayerValue();
+  const [{user,playlists}, dispatch]= useDataLayerValue();
 
   useEffect(()=>{
 
@@ -53,7 +53,7 @@ spotify.getUserPlaylists().then((playlists)=>{
 })
     }
   },[])
-console.log('user',user)
+console.log('playlist',playlists)
   return (
     <div className="App">
 
