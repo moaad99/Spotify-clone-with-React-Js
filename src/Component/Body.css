@@ -4,3 +4,40 @@
     background: linear-gradient(rgb(91, 87, 115),rgba(0,0,0,1));
     padding:30px
 }
+
+img{
+    height: 12vw;
+    width: 13vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px black;
+}
+.body__shuffle {
+    font-size: 60px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .body__shuffle:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+  }
+.icons{
+    display: flex;
+    justify-content: space-between;
+    max-width: 220px;
+    align-items: center;
+    margin-inline: -30px;
+}
+.info{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 14px;
+}

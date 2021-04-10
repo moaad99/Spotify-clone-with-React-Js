@@ -1,4 +1,42 @@
 .footer{
-    background-color: grey;
-    padding:30px;
+    background-color: #282828;
+    padding:20px;
+    height:85px;
+    width: 97.5%;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+.footer_center{
+
+    flex: 0.4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+
+}
+.footer_left{
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+    color: white;
+    width: 300px;
+}
+.a:hover,.b:hover,.c:hover,.d:hover,.e:hover{
+    transition: transform 200ms ease-in-out;
+    transform: scale(1.2) !important;
+}
+.log{
+    height: 100px;
+    width: 120px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+.footer_right{
+
+    flex: 0.3;
 }

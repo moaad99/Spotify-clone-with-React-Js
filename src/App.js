@@ -37,7 +37,20 @@ function App() {
 
 
       })
+      spotify.getPlaylist('37i9dQZEVXcQNdDKQsfcCu').then(res =>{
+        dispatch({
+          type:"SET_DISCOVER",
+          discover_weekly: res,
+        })
+      })
 
+spotify.getUserPlaylists().then((playlists)=>{
+
+  dispatch({
+    type:'SET_PLAYLISTS',
+    playlists:playlists,
+  })
+})
     }
   },[])
 console.log('user',user)

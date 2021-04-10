@@ -17,7 +17,18 @@ export const reducer= (state=initialstate,action)=>{
             return {
                 ...state,
                 user:action.user
-            }
+            };
+
+            case 'SET_PLAYLISTS':
+                return {
+                    ...state,
+                    playlists:action.playlists
+                }  ; 
+            case 'SET_DISCOVER':
+                return {
+                    ...state,
+                    discover_weekly:action.discover_weekly
+                }   ;
             default:
                 return state;
     }

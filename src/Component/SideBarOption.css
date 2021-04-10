@@ -1,0 +1,32 @@
+.sidebaroption{
+
+    color: grey;
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+    
+    
+}
+hr{
+    border: 1px solid #282828 ;
+    width: 90%;
+    margin: 10px auto;
+    
+}
+
+.p1 , .p2, .p3{
+    display:flex;
+    margin-inline: 25px;
+    margin-top: 7px;
+
+}
+.p1:hover {
+    color: white;
+}
+.p2:hover {
+    color: white;
+}
+.p3:hover {
+    color: white;
+}
+
