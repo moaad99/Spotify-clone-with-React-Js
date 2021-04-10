@@ -7,7 +7,7 @@ import {useDataLayerValue} from "../DataLayer"
 function SideBarOption() {
   const [{playlists}, dispatch]= useDataLayerValue();
     return (
-        <div>
+        <div >
         
         <div className="sidebaroption">
             {HomeIcon &&   <p className="p1">  <HomeIcon /> <p style={{marginInline:"10px"}}>Home</p> </p> }
@@ -19,7 +19,7 @@ function SideBarOption() {
       <br/>
       
         </div>
-        <div style={{marginTop:"115px"}}>
+        <div style={{marginTop:"35px"}}>
         <strong style={{marginInline:"30px",color:"white"}}>PLAYLISTS</strong>
       
         <br/><br/>

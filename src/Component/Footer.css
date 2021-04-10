@@ -5,10 +5,18 @@
     width: 97.5%;
     display: flex;
     justify-content: space-between;
-
-
+    position: fixed;
+  bottom: 0;
+  left: 0;
 
 }
+.footer_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex: 0.3;
+  }
 .footer_center{
 
     flex: 0.4;
@@ -30,6 +38,7 @@
     transition: transform 200ms ease-in-out;
     transform: scale(1.2) !important;
 }
+
 .log{
     height: 100px;
     width: 120px;

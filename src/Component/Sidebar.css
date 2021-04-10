@@ -1,10 +1,11 @@
 .sidebar{
     background-color: black;
     flex:0.2;
-    height: 84.2vh;
+    height: 400.2vh;
+  
    min-width: 230px;
    color: white;
-  
+   overflow-y: auto;
 }
 
 .logo{

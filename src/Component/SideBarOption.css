@@ -1,11 +1,13 @@
+
+
 .sidebaroption{
 
     color: grey;
-    height: 40px;
+    
     cursor: pointer;
     transition: 200ms color ease-in;
     
-    
+   
 }
 hr{
     border: 1px solid #282828 ;
